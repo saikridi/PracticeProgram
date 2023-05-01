@@ -1,6 +1,6 @@
 package com.SpringBoot.GamePrograms;
 
-public class MarioGame {
+public class MarioGame implements GamesInterface{
     public void Up(){
         System.out.println("Jump");
     }
@@ -13,5 +13,4 @@ public class MarioGame {
     public void Left(){
         System.out.println("Go back");
     }
-
 }
