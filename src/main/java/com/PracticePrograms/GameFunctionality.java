@@ -1,6 +1,7 @@
 package com.PracticePrograms;
 
 import com.PracticePrograms.Games.GameInterface;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
