@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan("com.PracticePrograms.Games")
-@ComponentScan("com.PracticePrograms")
+@ComponentScan
 public class GameApplication {
     public static void main(String[] args){
         try(var context = new AnnotationConfigApplicationContext(GameApplication.class)){
