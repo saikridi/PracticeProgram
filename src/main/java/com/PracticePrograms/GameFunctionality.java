@@ -1,7 +1,9 @@
 package com.PracticePrograms;
 
 import com.PracticePrograms.Games.GameInterface;
+import org.springframework.stereotype.Component;
 
+@Component
 public class GameFunctionality {
     /* Contains the Basic Functionality of the game*/
     private GameInterface game;

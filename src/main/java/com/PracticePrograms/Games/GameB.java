@@ -1,5 +1,8 @@
 package com.PracticePrograms.Games;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameB implements GameInterface{
     public void Up(){System.out.println("Go Game B Up");}
     public void Down(){System.out.println("Go Game B Down");}
