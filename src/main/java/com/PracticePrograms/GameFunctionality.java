@@ -1,4 +1,17 @@
 package com.PracticePrograms;
 
+import com.PracticePrograms.Games.GameInterface;
+
 public class GameFunctionality {
+    /* Contains the Basic Functionality of the game*/
+    private GameInterface game;
+    public GameFunctionality(GameInterface game){this.game = game;}
+
+    public void run(){
+        game.Up();
+        game.Down();
+        game.Left();
+        game.Right();
+    }
+
 }
