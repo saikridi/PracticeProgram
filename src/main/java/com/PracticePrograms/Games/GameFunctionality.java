@@ -1,4 +1,4 @@
-package com.PracticePrograms;
+package com.PracticePrograms.Games;
 
 import com.PracticePrograms.Games.GameInterface;
 import org.springframework.beans.factory.annotation.Qualifier;
