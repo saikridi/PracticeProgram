@@ -1,4 +1,4 @@
-package BusinessCalculationService;
+package com.PracticePrograms.BusinessCalculationService;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package BusinessCalculationService;
+package com.PracticePrograms.BusinessCalculationService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

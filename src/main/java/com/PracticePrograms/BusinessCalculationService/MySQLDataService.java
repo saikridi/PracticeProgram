@@ -1,4 +1,4 @@
-package BusinessCalculationService;
+package com.PracticePrograms.BusinessCalculationService;
 
 import org.springframework.stereotype.Component;
 
